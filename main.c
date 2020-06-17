@@ -11,9 +11,6 @@ int main(char argc, int *argv[]){
 
     SDL_Surface *screen = NULL , *image = NULL;
     SDL_Rect position;
-    int i, j;
-    int **merde = activateBox();
-
 
     SDL_Init(SDL_INIT_VIDEO);
     SDL_WM_SetCaption("Tetris game ", NULL);
@@ -29,19 +26,7 @@ int main(char argc, int *argv[]){
 
     moveBlock(screen);
 
-
-    for ( i = 0; i < NUMBER_LINES; i++)
-        free(merde[i]);
-
-    free(merde);
-
-
-
     SDL_Quit();
-
-
 
 return EXIT_SUCCESS;
 }
-
-
