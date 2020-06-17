@@ -1,3 +1,5 @@
+# Tetris Game 
+
 This is a tetris game made with C language. 
 
 The main idea is to move a 4x4 array inside a large array which represents the screen of the game. 
