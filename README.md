@@ -8,6 +8,7 @@ them in the 'Blocks' folder.
 # Compiling command 
 
 If you are using linux then you can compile the game with the following command 
+
 ``` gcc -o main.exe main.c functions.c `sdl-config --libs` -lSDL_image ```
 
 # Requirements 
